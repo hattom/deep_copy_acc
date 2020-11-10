@@ -16,7 +16,6 @@ program acc_deepcopy_test
   end type species_type
 
   type(species_type), allocatable, dimension(:) :: species
-  !$acc declare create(species)
 
   integer :: nspecies
 
@@ -30,8 +29,8 @@ program acc_deepcopy_test
   allocate(species(nspecies))
   species(2)%dummy_real = 3.0 !debug
 
-  !$acc update device(species)
 
+  !$acc enter data copyin(species)
   do i=2,2
     print *, 'Host:', species(i)%dummy_real
   enddo
@@ -53,12 +52,7 @@ program acc_deepcopy_test
       ))
       species(i)%num_f0%data1d(:) = 20.0 !debug
       species(i)%num_f0%data3d(:,:,:) = 10.0 !debug
-    endif
-  enddo
-
-  do i=1,nspecies
-    if (i==3) then
-      !$acc update device(species(i)%num_f0)
+!$acc enter data copyin(species(i)%num_f0%data1d,species(i)%num_f0%data3d)
     endif
   enddo
 

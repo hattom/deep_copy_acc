@@ -1,0 +1,18 @@
+Enter enter data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=33 device=0 threadid=1
+Leave enter data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=33 device=0 threadid=1
+Enter enter data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=38 device=0 threadid=1
+Leave enter data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=38 device=0 threadid=1
+Enter compute region file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=38 device=0 threadid=1
+launch CUDA kernel  file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=38 device=0 threadid=1 num_gangs=1 num_workers=1 vector_length=1 grid=1 block=1
+Leave compute region file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=38 device=0 threadid=1
+Enter exit data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=38 device=0 threadid=1 queue=0
+Leave exit data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=42 device=0 threadid=1
+Enter enter data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=55 device=0 threadid=1
+Leave enter data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=55 device=0 threadid=1
+Enter enter data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=59 device=0 threadid=1
+Leave enter data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=59 device=0 threadid=1
+Enter compute region file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=59 device=0 threadid=1
+launch CUDA kernel  file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=59 device=0 threadid=1 num_gangs=1 num_workers=1 vector_length=1 grid=1 block=1
+Leave compute region file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=59 device=0 threadid=1
+Enter exit data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=59 device=0 threadid=1 queue=0
+Leave exit data construct file=/cobra/u/thay/src/c4s/orb5/deep_copy_acc/mwe_acc_deepcopy.F90 function=acc_deepcopy_test line=64 device=0 threadid=1

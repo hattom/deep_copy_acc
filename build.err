@@ -1,1 +1,9 @@
-PGF90-F-0155-Compiler failed to translate accelerator region (see -Minfo messages): Missing device copy for mirrored symbol (mwe_acc_deepcopy.F90: 39)
+acc_deepcopy_test:
+     33, Generating enter data copyin(species(:))
+     38, Generating Tesla code
+         39, !$acc loop gang ! blockidx%x threadidx%x
+     38, Generating implicit copyin(species(2)) [if not already present]
+     55, Generating enter data copyin(species%num_f0%data3d(:,:,:),species%num_f0%data1d(:))
+     59, Generating Tesla code
+         60, !$acc loop gang ! blockidx%x threadidx%x
+     59, Generating implicit copy(species(:)) [if not already present]
