@@ -1,0 +1,1 @@
+PGF90-F-0155-Compiler failed to translate accelerator region (see -Minfo messages): Missing device copy for mirrored symbol (mwe_acc_deepcopy.F90: 39)
